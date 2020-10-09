@@ -10,7 +10,7 @@ LendingClub enables borrowers to create unsecured personal loans between $1,000 
 #### •	Introduction: 
 Before a loan is issued to a borrower, lending club will collect information on a certain individual, generally including two aspects. The first one is personal information which includes age, sex, annual income, and etc. The second is information from third-party which includes FICO score, credit history, delinquency records, and etc. Lending club will then use a predictive model to predict whether this individual will default on loan, in order to make a final decision. The application of machine learning in fraud detection and risk management is very important to Lending Club. In additional to operational expense, default risk is a major component of a company’s loss. Default risk refers to loss exposure when a borrower fails to fulfill its debt obligation, in other words, losing the ability to pay back its loans. Generally, lending club tends to avoid ‘bad’ loans because trivial increase in net profit could leads to tremendous loss due to default. Often, both internal such as individual attributes and external factors such as economic change need to be considered to find an optimal strategy. In the project, we will focus on building internal model to predict the probability of default and classify loan application into default and non-default. The incentive behind this project is to help Lending Club perform better risk management as well as maximize its profit.
 
-#### •	The Data
+#### •	Data
 We will be using a subset of the LendingClub DataSet obtained from Kaggle: https://www.kaggle.com/wordsforthewise/lending-club
 
 #### •	Our Goal
